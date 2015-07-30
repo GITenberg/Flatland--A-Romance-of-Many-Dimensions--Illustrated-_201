@@ -12,8 +12,8 @@ creator:
     url: http://www.gutenberg.org/2009/agents/64
     wikipedia: http://en.wikipedia.org/wiki/Edwin_Abbott_Abbott
 gutenberg_bookshelf:
-- Mathematics
 - Science Fiction
+- Mathematics
 gutenberg_issued: '1995-01-01'
 gutenberg_type: Text
 identifiers:
@@ -23,7 +23,7 @@ publisher: Project Gutenberg
 rights: Public domain in the USA.
 rights_url: http://creativecommons.org/about/pdm
 subjects:
-- '!lcc:QA'
 - '!lcsh:Fourth dimension'
+- '!lcc:QA'
 title: 'Flatland: A Romance of Many Dimensions (Illustrated)'
 url: http://www.gutenberg.org/ebooks/201
