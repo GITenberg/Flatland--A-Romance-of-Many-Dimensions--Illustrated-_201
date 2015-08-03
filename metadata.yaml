@@ -10,16 +10,16 @@ creator:
     agent_name: Abbott, Edwin Abbott
     aliases:
     - Abbott, E. A. (Edwin Abbott)
-    - A Square
     - Abbott, Edwin A. (Edwin Abbott)
+    - A Square
     birthdate: 1838
     deathdate: 1926
     gutenberg_agent_id: '64'
     url: http://www.gutenberg.org/2009/agents/64
     wikipedia: http://en.wikipedia.org/wiki/Edwin_Abbott_Abbott
 gutenberg_bookshelf:
-- Science Fiction
 - Mathematics
+- Science Fiction
 gutenberg_issued: '1995-01-01'
 gutenberg_type: Text
 identifiers:
@@ -29,7 +29,7 @@ publisher: Project Gutenberg
 rights: Public domain in the USA.
 rights_url: http://creativecommons.org/about/pdm
 subjects:
-- '!lcsh:Fourth dimension'
-- '!lcc:QA'
+- '!lcc: QA'
+- '!lcsh: Fourth dimension'
 title: 'Flatland: A Romance of Many Dimensions (Illustrated)'
 url: http://www.gutenberg.org/ebooks/201
