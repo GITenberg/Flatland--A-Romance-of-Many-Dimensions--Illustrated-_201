@@ -25,7 +25,8 @@ script:
 - if test -d "./images"; then mv ./images ./OEBPS/ ;fi
 - zip -rX book.epub mimetype
 - zip -rX book.epub OEBPS/ META-INF/
-- if test -d "OEBPS/images/"; then zip -rX book.epub OEBPS/images/ ;fi
+# look for first images directory and one found, copy over to ./OEBPS
+- find . -name images -type d | head -n 1 | xargs -I {} mv {} ./OEBPS/
 - mv book.epub Flatland-A-Romance-of-Many-Dimensions-Illustrated.epub
 branches:
   only:
