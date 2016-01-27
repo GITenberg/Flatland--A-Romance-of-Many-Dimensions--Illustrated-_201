@@ -22,11 +22,11 @@ script:
 - xsltproc -stringparam external.assets.list " " ./HTMLBook/htmlbook-xsl/epub.xsl book.html
 - cp ./HTMLBook/stylesheets/epub/epub.css OEBPS
 - cp cover.jpg OEBPS/cover.jpg
-- if test -d "./images"; then mv ./images ./OEBPS/ ;fi
-- zip -rX book.epub mimetype
-- zip -rX book.epub OEBPS/ META-INF/
 # look for first images directory and one found, copy over to ./OEBPS
 - find . -name images -type d | head -n 1 | xargs -I {} mv {} ./OEBPS/
+- zip -rX book.epub mimetype
+- zip -rX book.epub OEBPS/ META-INF/
+- if test -d "OEBPS/images/"; then zip -rX book.epub OEBPS/images/ ;fi
 - mv book.epub Flatland-A-Romance-of-Many-Dimensions-Illustrated.epub
 branches:
   only:
