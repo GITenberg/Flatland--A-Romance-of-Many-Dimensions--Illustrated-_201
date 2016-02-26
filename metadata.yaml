@@ -1,5 +1,5 @@
 _repo: Flatland--A-Romance-of-Many-Dimensions--Illustrated-_201
-_version: 0.0.5
+_version: 0.1.0
 covers:
 - attribution: alex mckeithen, 2015
   cover_type: original
@@ -33,5 +33,6 @@ rights_url: http://creativecommons.org/licenses/by-nc/4.0/
 subjects:
 - '!lcc: QA'
 - '!lcsh: Fourth dimension'
+- GITenberg
 title: 'Flatland: A Romance of Many Dimensions (Illustrated)'
 url: http://www.gutenberg.org/ebooks/201
