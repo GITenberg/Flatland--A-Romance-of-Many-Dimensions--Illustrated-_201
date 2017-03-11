@@ -1,5 +1,5 @@
 _repo: Flatland--A-Romance-of-Many-Dimensions--Illustrated-_201
-_version: 0.2.1
+_version: 0.2.2
 covers:
 - attribution: alex mckeithen, 2015
   cover_type: original
@@ -18,6 +18,8 @@ creator:
     gutenberg_agent_id: '64'
     url: http://www.gutenberg.org/2009/agents/64
     wikipedia: http://en.wikipedia.org/wiki/Edwin_Abbott_Abbott
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/201#Flatland--A-Romance-of-Many-Dimensions--Illustrated-
 gutenberg_bookshelf:
 - Mathematics
 - Science Fiction
